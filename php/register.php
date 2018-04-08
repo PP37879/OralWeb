@@ -2,7 +2,6 @@
 include "connect.php";
 $datajson = file_get_contents("php://input");
 $data = json_decode($datajson);
-
 $den_username = $data->username;
 $den_password = $data->password;
 $den_name = $data->name;
