@@ -5,10 +5,9 @@ header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token');
  
 
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "oralhealth";
+$servername = "mysql.hostinger.in.th";
+$username = "u296145480_user";
+$password = "pp0897733645";
+$dbname = "u296145480_oral";
 $conn = new mysqli($servername, $username, $password, $dbname);
-
 ?>

@@ -1,8 +1,8 @@
 <?php
-$host  = "localhost";
-$user = "root";
-$pass = "";
-$db = "oralhealth";
+$host  = "mysql.hostinger.in.th";
+$user = "u296145480_user";
+$pass = "pp0897733645";
+$db = "u296145480_oral";
 
 $con = mysqli_connect($host,$user,$pass,$db);
 
